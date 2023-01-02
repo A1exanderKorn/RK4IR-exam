@@ -1,0 +1,30 @@
+#flex-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pryam{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+
+#parallelogram{
+    height: 100px;
+    width: 200px;
+    transform: skew(20deg);
+    background-color: aqua;
+}
+
+#triangle{
+    height: 1px;
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+    border: 100px solid transparent ; border-bottom: 100px solid green
+    /* также можно сделать треугольник при помощи transform skew(45 deg), и на половину
+     получившегося ромба наложить другой элемент(несложно реализовать при помощи псевдоэлементов) */
+}

@@ -1,0 +1,42 @@
+.menu{
+    min-height: 500px;
+    width: 200px;
+    background-color:yellowgreen;
+    margin: 70px;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+.menu.not_visible{
+    min-height: 83px;
+    transition: 0.25s;
+}
+.menu.not_visible span{
+    display: none;
+    transition: 0.25s;
+    
+}
+.menu.visible span{
+    display: block;
+    transition: 0.25s;
+}
+#btn{
+    cursor: pointer;
+    width: 50px;
+    height: 31px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#btn div{
+    width: 50px;
+    height: 7px;
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+
