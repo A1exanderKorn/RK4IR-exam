@@ -1,0 +1,19 @@
+.block{
+    width: 1200px;
+    font-size: 30px;
+    background-color: lightgreen;
+}
+
+@media screen and (max-width: 1500px) {
+    .block{
+        width: 800px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .block{
+        width: 400px;
+        font-size: 15px;
+    }
+}
