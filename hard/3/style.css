@@ -1,0 +1,12 @@
+#timetopudge{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#size{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    z-index: 20;
+}
