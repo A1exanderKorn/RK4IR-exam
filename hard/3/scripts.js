@@ -1,7 +1,7 @@
 let range = document.getElementById('size');
 
 function change_size() {
-    let image = document.getElementById('timetopudge');
+    let image = document.getElementById('cat');
     image.style.width = range.value + "%";
 }
 
